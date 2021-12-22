@@ -25,11 +25,13 @@ public class Ej07 {
         System.out.print("Introduce un número natural entre 1 y 1000: ");
         num = teclado.nextInt();
         if (num >= 0 || num <= 1000) {
-            for (int i = num; num >= 1; i--) {
+            for (int i = 1; i <= num/2; i++) {
                 if (num % i == 0) {
                     System.out.println(i);
                 }
+                
             }
+            System.out.println(num);
         } else {
             System.out.println("Numero incorrecto.");
         }
