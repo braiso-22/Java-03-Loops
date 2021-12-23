@@ -17,7 +17,7 @@ public class Ej29 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner a = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
         int num1, num2,
                 contador = 0,
                 suma = 0,
@@ -27,8 +27,8 @@ public class Ej29 {
         System.out.println("Introduce 2 números y te digo la suma, "
                 + "media y producto de los números entre esos 2");
 
-        num1 = a.nextInt();
-        num2 = a.nextInt();
+        num1 = teclado.nextInt();
+        num2 = teclado.nextInt();
 
         //intercambiar valores si están al revés
         if (num1 > num2) {
